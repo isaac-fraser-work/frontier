@@ -152,6 +152,20 @@ still has pull requests — but it is capability, never a place work goes.
 
 ---
 
+## Updating
+
+```bash
+claude plugin marketplace update frontier
+claude plugin update frontier@frontier
+```
+
+`claude plugin install` is a **no-op** once the plugin is installed — it reports "already
+installed" and leaves the old version in place. Upgrading takes `update`, and a restart to
+apply it.
+
+Projects need no action: the layer-0 resolver reads the plugin registry rather than a
+hardcoded path, so it follows the version bump on its own.
+
 ## Running it from a clone
 
 The plugin is the supported path. If you would rather work from a checkout:
