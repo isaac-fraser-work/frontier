@@ -1,0 +1,1 @@
+/home/isaac/uv-test/wayfinder_architect/archive/docs/agents/harness-context.md
