@@ -1,22 +1,12 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
+# The archive this repo was built from — the harness's private working copy.
+# Its contents ship as skills/ and template/; a second copy would be a fork.
+archive/
 
-# pytest
-.pytest_cache/
+# Machine-local Claude Code state. settings.json is deliberately not tracked
+# here: this repo is a plugin, and a plugin does not carry a project's settings.
+.claude/
 
-# Claude Code project config.
-# Most .claude/ entries are masked device nodes in the agent sandbox and git
-# cannot add them, so ignore everything and allowlist what we deliberately
-# share. To track a real one later (e.g. .claude/commands/), add a '!' line.
-# settings.local.json stays ignored on purpose: it is machine-local.
-.claude/*
-!.claude/settings.json
-
-# Editor / shell config that lives at this project root.
+# Editor / shell config that lives at this project root in the author's sandbox.
 .idea
 .vscode
 .mcp.json
@@ -28,3 +18,7 @@ venv/
 .zshrc
 .zprofile
 .profile
+
+__pycache__/
+*.py[cod]
+.venv/

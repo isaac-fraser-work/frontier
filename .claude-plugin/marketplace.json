@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "frontier",
+  "owner": { "name": "Isaac Fraser", "url": "https://github.com/isaac-fraser-work" },
+  "description": "The frontier harness for Claude Code — derived context, three scope tiers, and the skills that run on them.",
+  "plugins": [
+    {
+      "name": "frontier",
+      "source": "./",
+      "description": "An agent harness built on derived context: the architect authors what the system is for, and every layer below derives from it. Ships 16 skills, the architect-mode contract, and /frontier:setup to wire a project to both.",
+      "category": "engineering",
+      "keywords": ["harness", "architect-mode", "context-engineering", "skills", "subagents"]
+    }
+  ]
+}

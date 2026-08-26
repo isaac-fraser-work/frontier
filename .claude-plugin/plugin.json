@@ -1,0 +1,32 @@
+{
+  "name": "frontier",
+  "version": "0.1.0",
+  "description": "An agent harness for Claude Code built on derived context. The architect authors what the system is for; every layer below is derived from it, never authored upward. 16 skills, a three-tier contract, and a scaffolder that wires a project to both.",
+  "author": { "name": "Isaac Fraser" },
+  "homepage": "https://github.com/isaac-fraser-work/frontier",
+  "repository": "https://github.com/isaac-fraser-work/frontier",
+  "license": "MIT",
+  "keywords": [
+    "harness", "architect-mode", "context-engineering", "skills",
+    "subagents", "tdd", "code-review", "research"
+  ],
+  "commands": ["./commands/setup.md"],
+  "skills": [
+    "./skills/ring",
+    "./skills/frontier-control",
+    "./skills/context",
+    "./skills/audit",
+    "./skills/courier",
+    "./skills/implement",
+    "./skills/tdd",
+    "./skills/code-review",
+    "./skills/codebase-design",
+    "./skills/diagnosing-bugs",
+    "./skills/domain-modeling",
+    "./skills/grilling",
+    "./skills/grill-with-docs",
+    "./skills/prototype",
+    "./skills/research",
+    "./skills/resolving-merge-conflicts"
+  ]
+}
