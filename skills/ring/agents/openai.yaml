@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ring"
+  short_description: "The way in — pick the tool for the job and hand it to an agent that runs it"
+policy:
+  allow_implicit_invocation: false

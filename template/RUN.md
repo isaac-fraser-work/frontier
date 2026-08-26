@@ -1,10 +1,10 @@
-# Run: frontier
+# Run: {{PROJECT_NAME}}
 
-**Prefix:** `FRONTIER-`
-**Created:** 2026-08-26
+**Prefix:** `{{RUN_PREFIX}}-`
+**Created:** {{DATE}}
 **Status:** open
 
-One `/ring` invocation, one project ([`ADR-0003`](/home/isaac/uv-test/wayfinder_architect/docs/adr/0003-run-as-project.md)).
+One `/ring` invocation, one project ([`ADR-0003`]({{FRONTIER_REPO}}/docs/adr/0003-run-as-project.md)).
 This run holds a complete derivation chain and inherits nothing from any other.
 
 ## Its layers
@@ -18,7 +18,7 @@ This run holds a complete derivation chain and inherits nothing from any other.
 
 ## Its ids
 
-Entries here are `FRONTIER-001`, `FRONTIER-BLD-001`, and so on. The prefix is unique
+Entries here are `{{RUN_PREFIX}}-001`, `{{RUN_PREFIX}}-BLD-001`, and so on. The prefix is unique
 across `runs/`, so another run may cite one of these without qualifying it.
 
 ## Reaching other runs

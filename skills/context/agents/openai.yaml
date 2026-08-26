@@ -1,0 +1,5 @@
+interface:
+  display_name: "Context"
+  short_description: "Interview the architect and record what they decide as actual system context"
+policy:
+  allow_implicit_invocation: true

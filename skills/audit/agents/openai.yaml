@@ -1,0 +1,5 @@
+interface:
+  display_name: "Audit"
+  short_description: "Audit the system context an agent wrote in the architect's absence"
+policy:
+  allow_implicit_invocation: true

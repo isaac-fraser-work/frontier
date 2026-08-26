@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# pytest
+.pytest_cache/
+
+# Claude Code project config.
+# Most .claude/ entries are masked device nodes in the agent sandbox and git
+# cannot add them, so ignore everything and allowlist what we deliberately
+# share. To track a real one later (e.g. .claude/commands/), add a '!' line.
+# settings.local.json stays ignored on purpose: it is machine-local.
+.claude/*
+!.claude/settings.json
+
+# Editor / shell config that lives at this project root.
+.idea
+.vscode
+.mcp.json
+.ripgreprc
+.gitconfig
+.gitmodules
+.bashrc
+.bash_profile
+.zshrc
+.zprofile
+.profile

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Frontier Control"
+  short_description: "Hold build context, compose waves, dispatch subagents, and absorb their escalations"
+policy:
+  allow_implicit_invocation: true
